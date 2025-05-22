@@ -1,0 +1,22 @@
+[project]
+name = "record-book"
+version = "0.1.0"
+license = "MIT"
+description = ""
+authors = [
+    {name = "王强",email = "q13050795970@163.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlmodel (>=0.0.24,<0.0.25)",
+    "typer (>=0.15.4,<0.16.0)"
+]
+
+[tool.poetry.scripts]
+rc = "record_book.main:app"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

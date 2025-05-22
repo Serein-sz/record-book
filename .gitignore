@@ -1,0 +1,11 @@
+.trae
+
+.venv
+
+dist/
+
+*.db
+/**/__pycache__/
+/**/*.pyc
+/**/*.pyo
+*.log
