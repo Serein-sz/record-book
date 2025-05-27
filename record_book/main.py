@@ -6,9 +6,8 @@ from rich import print
 
 from datetime import date
 
-from entity.record import WorkRecord, WorkStatus
-from utils.util import console, error_console, print_table, check_duplicate_name
-from utils.db import engine
+from entity import WorkRecord, WorkStatus
+from utils import engine, console, error_console, print_table, check_duplicate_name
 
 app = typer.Typer()
 

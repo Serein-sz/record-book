@@ -5,7 +5,7 @@ from rich.console import Console
 from rich.table import Table
 
 from .db import engine
-from entity.record import WorkRecord
+from entity import WorkRecord
 
 console = Console()
 error_console = Console(stderr=True, style="bold red")
